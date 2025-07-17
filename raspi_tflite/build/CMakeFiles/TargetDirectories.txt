@@ -1,0 +1,3 @@
+/home/a/raspi_tflite/build/CMakeFiles/rebuild_cache.dir
+/home/a/raspi_tflite/build/CMakeFiles/edit_cache.dir
+/home/a/raspi_tflite/build/CMakeFiles/raspi_detector.dir
