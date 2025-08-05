@@ -35,32 +35,6 @@
   <img src="docs/images/event_detection.png" alt="이벤트 감지 화면" width="600"/>
 </div>
 
-## 📁 프로젝트 구조
-
-```
-AI-model/
-├── 📂 model_train/              # AI 모델 학습 및 변환
-│   ├──  train_in_local.py     # YOLO 모델 학습 스크립트
-│   ├──  export_model.py       # TFLite/ONNX 변환 스크립트
-│   ├── 📁 best_test_saved_model/ # 학습된 모델 저장
-│   └── 📁 fall_saved_model/     # 넘어짐 감지 모델
-│
-├── 📂 raspi_tflite/             # 라즈베리파이용 TFLite 실행
-│   ├──  main.cpp              # TFLite 추론 C++ 코드
-│   ├── 📄 CMakeLists.txt        # 빌드 설정
-│   └── 📁 tensorflow_lite/      # TFLite 라이브러리
-│
-├── 📂 yolo_with_rtsp/           # RTSP 스트리밍 시스템
-│   └── 📂 crtsp/
-│       ├──  src/main.cpp      # RTSP 스트림 처리
-│       ├──  src/detector.h    # 객체 탐지 클래스
-│       ├──  src/detector.cpp  # 탐지 로직 구현
-│       └── 📁 models/           # ONNX 모델 파일
-│
-└── 📄 README.md                 # 프로젝트 문서
-```
-
-
 
 ### 모델 학습
 
@@ -77,7 +51,7 @@ python export_model.py
 
 
 
-## 📈 모델 성능
+##  모델 성능
 
 ### 학습 결과
 - **mAP50**: 0.514
@@ -90,7 +64,7 @@ python export_model.py
 - **정확도**: 안전장비 감지 85% 이상
 - **지연시간**: <100ms
 
-## 🗃️ 데이터셋 정보
+##  데이터셋 정보
 
 ### 데이터셋 구성
 - **총 이미지 수**: 1,620장
