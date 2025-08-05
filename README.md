@@ -32,7 +32,7 @@
 
 ###  이벤트 감지
 <div align="center">
-  <img src="docs/images/event_detection.png" alt="이벤트 감지 화면" width="600"/>
+  <img src="docs/images/event_detection.png" alt="이벤트 감지 화면" width="400"/>
 </div>
 
 
